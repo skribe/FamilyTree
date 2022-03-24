@@ -51,8 +51,8 @@ folder = '' #'/media/ToshikHD/Dropbox/Programming/Python/Dy/'
 # would be founded, in what year to stop the calculation, and
 # how many people there would be in the original generation.
 
-startyear = 1066
-endyear = 2014
+startyear = 1800
+endyear = 2000
 persons = 64
 
 # After one run of the program it can be called again from
@@ -60,7 +60,7 @@ persons = 64
 # tree will be generated.
 
 def run():
-    execfile(folder+'Dy27u.py')
+    execfile(folder+'FamilyTree.py')
 
 person = []
 living = set()
